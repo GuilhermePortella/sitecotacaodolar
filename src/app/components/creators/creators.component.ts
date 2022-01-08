@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-creators',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreatorsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
   }
 
+  cancel(): void {
+    this.router.navigate(['home'])
+  }
 }
