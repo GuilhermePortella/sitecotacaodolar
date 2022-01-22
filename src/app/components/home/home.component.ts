@@ -18,4 +18,8 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['creators'])
   }
 
+  newsOption(): void {
+    this.router.navigate(['news'])
+  }
+
 }
