@@ -7,6 +7,9 @@ button{
     color: white;
     background-color: rgb(103, 60, 143);
 }
+.logoImg{
+    width: 100px;
+}
 .nav{
     display: flex;
     align-items: center;

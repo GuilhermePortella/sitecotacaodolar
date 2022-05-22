@@ -22,4 +22,8 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['news'])
   }
 
+  cancel(): void {
+    this.router.navigate(['home'])
+  }
+
 }
