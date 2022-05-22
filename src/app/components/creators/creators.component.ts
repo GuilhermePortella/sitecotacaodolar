@@ -16,4 +16,8 @@ export class CreatorsComponent implements OnInit {
   cancel(): void {
     this.router.navigate(['home'])
   }
+
+  creatorsOption(): void {
+    this.router.navigate(['creators'])
+  }
 }
