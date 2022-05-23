@@ -8,6 +8,7 @@
 </head>
 <body>
 
+     <!--
     <nav class="nav">
         <span class="nav_logo">
             <img class="logoImg" src="assets\logo.png">
@@ -22,10 +23,25 @@
             </li>
         </ul>
     </nav>
+-->
+    <div class="nav">
+        <span class="nav_logo">
+            <img class="logoImg" src="assets\logo.png">
+        </span>
+        <div class="nav_item">
 
+            <button (click)="creatorsOption()" mat-raised-button color="primary" class="nav_link">
+                Desenvolvedores
+            </button>
+            
+            <button (click)="newsOption()" mat-raised-button color="primary" class="nav_link">
+                Noticias
+            </button>
+        </div>
+
+    </div>
 
     <p>home works!</p>
-
 
 
     <!--
