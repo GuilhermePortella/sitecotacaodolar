@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['news'])
   }
 
-  cancel(): void {
+  home(): void {
     this.router.navigate(['home'])
   }
 

@@ -10,27 +10,38 @@
 
 <body>
 
-  <nav class="nav">
-    <span class="nav_logo">
-      <img class="logoImg" src="assets\logo.png">
-  </span>
-    <ul class="nav_list">
-      <li class="nav_item">
-        <a href="home" class="nav_link">Pagina Inicial</a>
-        <a href="creators" class="nav_link">Desenvolvedores</a>
-        <a href="news" class="nav_link">Noticias</a>
-        <a href="" class="nav_link">Func</a>
-        <a href="" class="nav_link">Func</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="nav">
+    <span (click)="home()" class="nav_logo">
+        <img class="logoImg" src="assets\logo.png">
+    </span>
+    <div class="nav_item">
+  
+        <button (click)="home()" mat-raised-button color="primary" class="nav_link">
+            Pagina inicial
+        </button>
+  
+        <button (click)="creatorsOption()" mat-raised-button color="primary" class="nav_link">
+            Desenvolvedores
+        </button>
+        
+        <button (click)="newsOption()" mat-raised-button color="primary" class="nav_link">
+            Noticias
+        </button>
 
-  <p>news works!</p>
+        <button mat-raised-button color="primary" class="nav_link">
+          A desenvolver
+      </button>
 
+      <button mat-raised-button color="primary" class="nav_link">
+          A desenvolver
+      </button>
+    </div>
+  
+  </div>
 
-  <button (click)="cancel()" mat-raised-button color="primary">
-    voltar a home
-  </button>
+  <h1>
+    Noticias que podem influenciar o valor do dolar comercial 
+  </h1>
 
 </body>
 

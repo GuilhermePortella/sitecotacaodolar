@@ -25,10 +25,14 @@
     </nav>
 -->
     <div class="nav">
-        <span class="nav_logo">
-            <img class="logoImg" src="assets\logo.png">
+        <span (click)="home()" class="nav_logo">
+            <img (click)="home()" class="logoImg" src="assets\logo.png">
         </span>
         <div class="nav_item">
+
+            <button (click)="home()" mat-raised-button color="primary" class="nav_link">
+                Pagina inicial
+            </button>
 
             <button (click)="creatorsOption()" mat-raised-button color="primary" class="nav_link">
                 Desenvolvedores
@@ -37,11 +41,21 @@
             <button (click)="newsOption()" mat-raised-button color="primary" class="nav_link">
                 Noticias
             </button>
+
+            <button mat-raised-button color="primary" class="nav_link">
+                A desenvolver
+            </button>
+
+            <button mat-raised-button color="primary" class="nav_link">
+                A desenvolver
+            </button>
         </div>
 
     </div>
 
-    <p>home works!</p>
+  
+        <h1>Dolar Hoje: </h1>
+   
 
 
     <!--
