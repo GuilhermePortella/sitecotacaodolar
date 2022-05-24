@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
 </head>
+
 <body>
 
-     <!--
+  <!--
     <nav class="nav">
         <span class="nav_logo">
             <img class="logoImg" src="assets\logo.png">
@@ -24,38 +26,46 @@
         </ul>
     </nav>
 -->
-    <div class="nav">
-        <span (click)="home()" class="nav_logo">
-            <img (click)="home()" class="logoImg" src="assets\logo.png">
-        </span>
-        <div class="nav_item">
+  <div class="nav">
+    <span (click)="home()" class="nav_logo">
+      <img (click)="home()" class="logoImg" src="assets\logo.png">
+    </span>
+    <div class="nav_item">
 
-            <button (click)="home()" mat-raised-button color="primary" class="nav_link">
-                Pagina inicial
-            </button>
+      <button (click)="home()" mat-raised-button color="primary" class="nav_link">
+        Pagina inicial
+      </button>
 
-            <button (click)="creatorsOption()" mat-raised-button color="primary" class="nav_link">
-                Desenvolvedores
-            </button>
-            
-            <button (click)="newsOption()" mat-raised-button color="primary" class="nav_link">
-                Noticias
-            </button>
+      <button (click)="creatorsOption()" mat-raised-button color="primary" class="nav_link">
+        Desenvolvedores
+      </button>
 
-            <button mat-raised-button color="primary" class="nav_link">
-                A desenvolver
-            </button>
+      <button (click)="newsOption()" mat-raised-button color="primary" class="nav_link">
+        Noticias
+      </button>
 
-            <button mat-raised-button color="primary" class="nav_link">
-                A desenvolver
-            </button>
-        </div>
+      <button mat-raised-button color="primary" class="nav_link">
+        A desenvolver
+      </button>
 
+      <button mat-raised-button color="primary" class="nav_link">
+        A desenvolver
+      </button>
     </div>
 
-  
-        <h1>Dolar Hoje: </h1>
-   
+  </div>
+
+  <div class="conteudo_pag">
+
+    <h1>Dolar Hoje: </h1>
+
+    <article class="card">
+      <div class="card_content">
+        <h3 class="card_title">Dolar</h3>
+        <p class="card_description">Uma breve descrição aqui</p>
+      </div>
+    </article>
+
 
 
     <!--
@@ -68,6 +78,7 @@
         </button>
     -->
 
-
+  </div>
 </body>
+
 </html>
