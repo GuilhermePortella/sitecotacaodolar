@@ -1,3 +1,4 @@
+
 body{
     text-align: center;
 }
@@ -6,11 +7,8 @@ button{
     background-color: rgb(103, 60, 143);
 }
 .conteudo_pag{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+    display: flex;
+    justify-content: center;
 }
 .logoImg{
     width: 100px;
