@@ -7,6 +7,10 @@ button{
     color: white;
     background-color: rgb(103, 60, 143);
 }
+.conteudo_pag{
+    display: flex;
+    justify-content: center;
+}
 .logoImg{
     width: 100px;
 }
