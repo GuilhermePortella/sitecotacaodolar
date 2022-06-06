@@ -28,13 +28,14 @@ button{
     column-gap: 20px;
 }
 .nav_link{
-    display: inline-block;
+    display: inline;
     text-decoration: none;
-    
-    border-radius: 4px;
+   
+    border-radius: 9px;
     background-color: rgb(103, 60, 143);
     color: white;
     position: relative;
+    margin: 0 4px 0 4px;
 }
 .nav_link::after{
     content: '';

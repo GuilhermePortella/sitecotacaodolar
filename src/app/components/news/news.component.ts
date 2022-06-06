@@ -24,5 +24,4 @@ export class NewsComponent implements OnInit {
     this.router.navigate(['home'])
   }
 
-
 }
