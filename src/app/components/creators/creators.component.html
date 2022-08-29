@@ -7,24 +7,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contate-nos</title>
 </head>
+<div class="nav">
+  <span (click)="home()" class="nav_logo">
+      <img  class="logoImg" src="assets\logo.png">
+  </span>
+  <div class="nav_item">
+
+      <button (click)="home()" mat-raised-button color="primary" class="nav_link">
+        Pagina inicial
+      </button>
+
+      <button (click)="creatorsOption()" mat-raised-button color="primary" class="nav_link">
+          Desenvolvedores
+      </button>
+      
+      <button (click)="newsOption()" mat-raised-button color="primary" class="nav_link">
+          Noticias
+      </button>
+
+      <button mat-raised-button color="primary" class="nav_link">
+        A desenvolver
+    </button>
+
+    <button mat-raised-button color="primary" class="nav_link">
+        A desenvolver
+    </button>
+    
+  </div>
+
+</div>
 
 <body>
   <h1>Olá investidor</h1>
   <h3>Somos um grupo de amigos desenvolvedores
-    criamos essa aplicação para que voce posso organizar, pesquisar e
+    criamos essa aplicação para que voce possa organizar, pesquisar e
     cotar suas comprar de ativos em dolar
   </h3>
   <br>
   <span>
-    <h3> Devs Guilherme: estudante de ciencias da computação, dev mobile trabalhando com
+    <h3> Dev Guilherme: estudante de ciencias da computação, dev mobile trabalhando com
       tecnologias como Java, JavaScript, angular e nodeJs
+    </h3>
+    <h3> Dev X : estudante de ciencias da computação, dev frontEnd trabalhando com
+      tecnologias JavaScript, angular e nodeJs
     </h3>
   </span>
 
-
-  <button (click)="cancel()" mat-raised-button color="primary">
-    voltar a home
-  </button>
 
 </body>
 

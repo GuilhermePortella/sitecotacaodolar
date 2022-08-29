@@ -12,9 +12,16 @@ export class NewsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  cancel(): void {
-    this.router.navigate(['home'])
+  creatorsOption(): void {
+    this.router.navigate(['creators'])
   }
 
+  newsOption(): void {
+    this.router.navigate(['news'])
+  }
+
+  home(): void {
+    this.router.navigate(['home'])
+  }
 
 }

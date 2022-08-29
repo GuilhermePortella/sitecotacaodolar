@@ -13,7 +13,15 @@ export class CreatorsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  cancel(): void {
+  creatorsOption(): void {
+    this.router.navigate(['creators'])
+  }
+
+  newsOption(): void {
+    this.router.navigate(['news'])
+  }
+
+  home(): void {
     this.router.navigate(['home'])
   }
 }

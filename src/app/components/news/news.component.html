@@ -1,20 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contate-nos</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias</title>
 </head>
+
 <body>
 
+  <div class="nav">
+    <span (click)="home()" class="nav_logo">
+      <img class="logoImg" src="assets\logo.png">
+    </span>
+    <div class="nav_item">
 
-<p>news works!</p>
+      <button (click)="home()" mat-raised-button color="primary" class="nav_link">
+        Pagina inicial
+      </button>
+
+      <button (click)="creatorsOption()" mat-raised-button color="primary" class="nav_link">
+        Desenvolvedores
+      </button>
+
+      <button (click)="newsOption()" mat-raised-button color="primary" class="nav_link">
+        Noticias
+      </button>
+
+      <button mat-raised-button color="primary" class="nav_link">
+        A desenvolver
+      </button>
+
+      <button mat-raised-button color="primary" class="nav_link">
+        A desenvolver
+      </button>
+    </div>
+
+  </div>
+
+  <h1>
+    Noticias que podem influenciar o valor do dolar comercial
+  </h1>
 
 
-<button (click)="cancel()" mat-raised-button color="primary">
-    voltar a home
-</button>
+
+  <div class="lamp js-turnoff-btn">
+    <div class="lamp-item lamp-top"> </div>
+    <div class="lamp-item lamp-middle"> </div>
+    <div class="lamp-item lamp-bottom"> </div>
+    <div class="lamp-item lamp-light open"></div>
+  </div>
+
+  <script>
+    $('body').on('click', '.js-turnoff-btn', function () {
+      $('.lamp-light').toggleClass('open');
+    });
+  </script>
+
+
 
 </body>
+
 </html>

@@ -1,3 +1,11 @@
+# O Projeto
+
+Inicialmente a ideia do projeto e informar o valor do dolar comercial e outras moedas em relação ao real no momento da visita ao site, tambem contendo algumas noticias em relação ao mercado financeiro e noticias que podem impactar diretamente e indiretamente o valor das moedas
+
+
+
+
+
 # PriceFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
