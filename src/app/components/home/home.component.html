@@ -8,7 +8,21 @@
   <title>Home</title>
 </head>
 
+<script src='https://www.google.com/recaptcha/api.js?render=YOUR_PUBLIC_KEY'></script>
+
 <body>
+
+
+
+  <form>
+    <input type="text" name="username" placeholder="Usuário">
+    <input type="password" name="password" placeholder="Senha">
+    <div ngx-captcha siteKey="YOUR_PUBLIC_KEY"></div>
+    <button type="submit">Entrar</button>
+  </form>
+
+
+
 
   <div class="nav">
     <span (click)="home()" class="nav_logo">
